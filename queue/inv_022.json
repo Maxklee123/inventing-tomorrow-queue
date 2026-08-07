@@ -1,0 +1,11 @@
+{
+  "id": "inv_022",
+  "rubrik": "Erfindung #022",
+  "image": "queue/inv_022.png",
+  "hook": "Dieses Hörgerät filtert Stimmen wie ein echtes Gehirn",
+  "facts": [
+    "KI trennt Stimmen von Hintergrundlärm in Echtzeit",
+    "Passt sich automatisch an laute Umgebungen an",
+    "Erste Modelle sind bereits kommerziell erhältlich"
+  ]
+}

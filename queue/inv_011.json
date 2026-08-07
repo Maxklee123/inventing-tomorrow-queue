@@ -1,0 +1,11 @@
+{
+  "id": "inv_011",
+  "rubrik": "Erfindung #011",
+  "image": "queue/inv_011.png",
+  "hook": "Diese Straße erzeugt Strom und schmilzt ihren eigenen Schnee",
+  "facts": [
+    "Photovoltaik-Module stecken direkt im Asphalt",
+    "Integrierte Heizelemente schmelzen Schnee und Eis",
+    "Pilotstrecken laufen bereits in den Niederlanden und Frankreich"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "inv_014",
+  "rubrik": "Erfindung #014",
+  "image": "queue/inv_014.png",
+  "hook": "Diese Batterie speichert Energie ganz ohne Lithium",
+  "facts": [
+    "Nutzt Salzwasser statt seltener Rohstoffe wie Lithium",
+    "Nicht brennbar und ungiftig",
+    "Wird bereits in ersten Energiespeicher-Projekten getestet"
+  ]
+}

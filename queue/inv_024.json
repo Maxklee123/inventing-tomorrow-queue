@@ -1,0 +1,11 @@
+{
+  "id": "inv_024",
+  "rubrik": "Erfindung #024",
+  "image": "queue/inv_024.png",
+  "hook": "Diese Wasserstofftankstelle klappt sich einfach auf",
+  "facts": [
+    "Lässt sich innerhalb weniger Stunden komplett aufbauen",
+    "Produziert Wasserstoff direkt vor Ort per Elektrolyse",
+    "Erste mobile Stationen sind bereits im Testbetrieb"
+  ]
+}

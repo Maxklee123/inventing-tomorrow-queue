@@ -1,0 +1,11 @@
+{
+  "id": "inv_012",
+  "rubrik": "Erfindung #012",
+  "image": "queue/inv_012.png",
+  "hook": "Dieses Gerät zieht literweise Trinkwasser aus der Wüstenluft",
+  "facts": [
+    "Kondensiert Luftfeuchtigkeit auch in trockenen Wüstenregionen",
+    "Ein Gerät liefert bis zu mehreren Litern Trinkwasser täglich",
+    "Läuft komplett solarbetrieben, ganz ohne Stromnetz"
+  ]
+}

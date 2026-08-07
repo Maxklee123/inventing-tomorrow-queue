@@ -1,0 +1,11 @@
+{
+  "id": "inv_023",
+  "rubrik": "Erfindung #023",
+  "image": "queue/inv_023.png",
+  "hook": "Dieser Anzug hält Feuerwehrleute selbst in Flammen kühl",
+  "facts": [
+    "Spezialmaterial hält extremer Hitze deutlich länger stand",
+    "Motoren unterstützen beim Tragen schwerer Ausrüstung",
+    "Erste Prototypen werden bereits von Feuerwehren getestet"
+  ]
+}

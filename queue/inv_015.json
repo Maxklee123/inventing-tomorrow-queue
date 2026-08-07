@@ -1,0 +1,11 @@
+{
+  "id": "inv_015",
+  "rubrik": "Erfindung #015",
+  "image": "queue/inv_015.png",
+  "hook": "Dieser Roboterhund führt blinde Menschen sicher durch die Stadt",
+  "facts": [
+    "Erkennt Hindernisse und Ampeln per Kamera und KI",
+    "Warnt durch sanfte Vibrationen am Führgeschirr",
+    "Erste Prototypen werden in den USA und Südkorea getestet"
+  ]
+}

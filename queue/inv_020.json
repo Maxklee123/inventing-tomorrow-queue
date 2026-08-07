@@ -1,0 +1,11 @@
+{
+  "id": "inv_020",
+  "rubrik": "Erfindung #020",
+  "image": "queue/inv_020.png",
+  "hook": "Dieses Pflaster überwacht, wie gut deine Wunde heilt",
+  "facts": [
+    "Sensoren messen Feuchtigkeit, Temperatur und pH-Wert der Wunde",
+    "Warnt frühzeitig vor Entzündungen per App",
+    "Erste klinische Tests laufen bereits in mehreren Kliniken"
+  ]
+}

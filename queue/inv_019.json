@@ -1,0 +1,11 @@
+{
+  "id": "inv_019",
+  "rubrik": "Erfindung #019",
+  "image": "queue/inv_019.png",
+  "hook": "Diese Handyhülle lädt sich einfach aus der Luft auf",
+  "facts": [
+    "Fängt Umgebungs-Funkwellen aus WLAN und Mobilfunk ein",
+    "Lädt das Handy langsam, aber völlig kabellos nach",
+    "Erste Prototypen wurden bereits erfolgreich getestet"
+  ]
+}

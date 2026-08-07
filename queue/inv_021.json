@@ -1,0 +1,11 @@
+{
+  "id": "inv_021",
+  "rubrik": "Erfindung #021",
+  "image": "queue/inv_021.png",
+  "hook": "Dieser Stoff erzeugt Solarstrom, während du ihn trägst",
+  "facts": [
+    "Hauchdünne Graphenschicht erzeugt Strom aus Sonnenlicht",
+    "Bleibt dabei biegsam und waschbar wie normaler Stoff",
+    "Erste Prototyp-Jacken wurden bereits vorgestellt"
+  ]
+}

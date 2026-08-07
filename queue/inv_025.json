@@ -1,0 +1,11 @@
+{
+  "id": "inv_025",
+  "rubrik": "Erfindung #025",
+  "image": "queue/inv_025.png",
+  "hook": "Dieses Möbelstück baut sich von selbst zusammen",
+  "facts": [
+    "Spezialmaterial verändert bei Wärme oder Feuchtigkeit seine Form",
+    "Flach verpackt spart es enorm viel Transportvolumen",
+    "Erste Forschungsprototypen wurden bereits erfolgreich vorgeführt"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "inv_008",
+  "rubrik": "Erfindung #008",
+  "image": "queue/inv_008.png",
+  "hook": "Dieses Fenster besteht nicht aus Glas, sondern aus Holz",
+  "facts": [
+    "Holz wird chemisch gebleicht und mit Harz getränkt",
+    "Bis zu 90% lichtdurchlässig, aber stabiler als Glas",
+    "Erste Testfenster laufen bereits in Skandinavien"
+  ]
+}
