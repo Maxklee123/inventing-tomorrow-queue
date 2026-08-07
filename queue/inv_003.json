@@ -1,0 +1,11 @@
+{
+  "id": "inv_003",
+  "rubrik": "Erfindung #003",
+  "image": "queue/inv_003.png",
+  "hook": "Diese Windturbine passt auf jedes Hausdach",
+  "facts": [
+    "Vertikale Bauweise nutzt Stadtwind-Turbulenzen effizienter als klassische Rotoren.",
+    "Erzeugt auch bei wechselnder Windrichtung konstant Energie.",
+    "Läuft deutlich leiser als horizontale Windkraftanlagen."
+  ]
+}
