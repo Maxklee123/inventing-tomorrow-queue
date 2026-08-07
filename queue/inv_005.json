@@ -1,0 +1,11 @@
+{
+  "id": "inv_005",
+  "rubrik": "Erfindung #005",
+  "image": "queue/inv_005.png",
+  "hook": "Roboterbienen übernehmen die Bestäubung",
+  "facts": [
+    "Winzige Flugroboter bewegen sich wie echte Bienen von Blüte zu Blüte.",
+    "Sollen künftig Rückgänge bei echten Bienenpopulationen kompensieren.",
+    "Forschungsteams testen bereits Schwarm-Koordination per KI-Steuerung."
+  ]
+}
