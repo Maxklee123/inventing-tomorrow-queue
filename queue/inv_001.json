@@ -1,0 +1,11 @@
+{
+  "id": "inv_001",
+  "rubrik": "Erfindung #001",
+  "image": "queue/inv_001.png",
+  "hook": "Dieses E-Bike faltet sich in 10 Sekunden auf Kofferformat",
+  "facts": [
+    "Magnetantrieb ersetzt klassische Kette und Zahnräder komplett.",
+    "Faltmechanismus reduziert das Bike auf Handgepäck-Maße.",
+    "Erste Serienmodelle sollen 2027 auf den Markt kommen."
+  ]
+}
