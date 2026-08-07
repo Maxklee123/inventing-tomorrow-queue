@@ -1,0 +1,11 @@
+{
+  "id": "inv_002",
+  "rubrik": "Erfindung #002",
+  "image": "queue/inv_002.png",
+  "hook": "Dieser Beton repariert sich selbst",
+  "facts": [
+    "Eingebettete Bakterien produzieren Kalkstein, sobald Risse entstehen.",
+    "Der Kalkstein verschließt die Risse innerhalb weniger Wochen.",
+    "Reduziert Wartungskosten und verlängert die Lebensdauer von Bauwerken deutlich."
+  ]
+}
