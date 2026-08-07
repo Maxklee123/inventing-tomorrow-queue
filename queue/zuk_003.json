@@ -1,0 +1,11 @@
+{
+  "id": "zuk_003",
+  "rubrik": "Zukunft #003",
+  "image": "queue/zuk_003.png",
+  "hook": "Rechenzentren wandern unter Wasser",
+  "facts": [
+    "Meerwasser kühlt Server passiv, ganz ohne aktive Kühlsysteme.",
+    "Senkt den Energieverbrauch gegenüber klassischen Rechenzentren um bis zu 40%.",
+    "Microsoft testete das Konzept bereits mehrere Jahre erfolgreich vor Schottland."
+  ]
+}
