@@ -1,0 +1,11 @@
+{
+  "id": "zuk_006",
+  "rubrik": "Zukunft #006",
+  "image": "queue/zuk_006.png",
+  "hook": "Ampeln, die den Stau vorhersehen",
+  "facts": [
+    "KI wertet Verkehrsfluss in Echtzeit aus mehreren Kreuzungen gleichzeitig aus.",
+    "Ampelschaltung passt sich dynamisch an, bevor sich ein Stau bildet.",
+    "Pilotstaedte melden spuerbar kuerzere Wartezeiten im Testbetrieb."
+  ]
+}
