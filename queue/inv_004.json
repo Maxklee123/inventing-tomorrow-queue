@@ -1,0 +1,11 @@
+{
+  "id": "inv_004",
+  "rubrik": "Erfindung #004",
+  "image": "queue/inv_004.png",
+  "hook": "Dieses Haus wird in 24 Stunden gedruckt",
+  "facts": [
+    "Ein Roboterarm trägt Beton schichtweise nach digitalem Bauplan auf.",
+    "Reduziert Bauzeit und Materialabfall im Vergleich zur klassischen Bauweise erheblich.",
+    "Erste bewohnte 3D-gedruckte Siedlungen gibt es bereits in den USA und Mexiko."
+  ]
+}
