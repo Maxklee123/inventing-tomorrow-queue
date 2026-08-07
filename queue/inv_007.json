@@ -1,0 +1,11 @@
+{
+  "id": "inv_007",
+  "rubrik": "Erfindung #007",
+  "image": "queue/inv_007.png",
+  "hook": "Dieses Fenster erzeugt nebenbei Strom",
+  "facts": [
+    "Transparente Solarfolie wird einfach auf bestehendes Glas aufgebracht.",
+    "Wandelt einen Teil des einfallenden Lichts in Strom um, ohne die Durchsicht spürbar zu beeinträchtigen.",
+    "Könnte ganze Bürofassaden künftig zu Kraftwerken machen."
+  ]
+}
