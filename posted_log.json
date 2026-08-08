@@ -1,1 +1,18 @@
-[{"post_id":"inv_001","timestamp":"2026-08-07T20:40:46+02:00","status":"posted","instagram_media_id":"17982305868060568","permalink":"https://www.instagram.com/p/Dbv9HERoAtA/","run_slot":2}]
+[
+  {
+    "post_id": "inv_001",
+    "timestamp": "2026-08-07T20:40:46+02:00",
+    "status": "posted",
+    "instagram_media_id": "17982305868060568",
+    "permalink": "https://www.instagram.com/p/Dbv9HERoAtA/",
+    "run_slot": 2
+  },
+  {
+    "post_id": "zuk_001",
+    "timestamp": "2026-08-08T12:09:56+02:00",
+    "status": "posted",
+    "instagram_media_id": "18086760716182591",
+    "permalink": "https://www.instagram.com/p/DbxncXDG2Gt/",
+    "run_slot": 1
+  }
+]
