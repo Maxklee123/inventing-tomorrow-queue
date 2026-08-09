@@ -7,5 +7,6 @@
     "Meerwasser kühlt Server passiv, ganz ohne aktive Kühlsysteme.",
     "Senkt den Energieverbrauch gegenüber klassischen Rechenzentren um bis zu 40%.",
     "Microsoft testete das Konzept bereits mehrere Jahre erfolgreich vor Schottland."
-  ]
+  ],
+  "description": "Anstatt Serverräume aufwendig mit Klimaanlagen zu kühlen, versenkt man sie einfach im Meer, wo das kalte Wasser die Kühlung praktisch von selbst übernimmt. Das spart nicht nur enorme Mengen an Energie, sondern auch wertvolle Landfläche an Land. Microsoft hat das Konzept bereits mehrere Jahre lang vor der schottischen Küste im Realbetrieb getestet, mit vielversprechenden Ergebnissen."
 }

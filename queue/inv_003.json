@@ -7,5 +7,6 @@
     "Vertikale Bauweise nutzt Stadtwind-Turbulenzen effizienter als klassische Rotoren.",
     "Erzeugt auch bei wechselnder Windrichtung konstant Energie.",
     "Läuft deutlich leiser als horizontale Windkraftanlagen."
-  ]
+  ],
+  "description": "Anders als klassische Windräder mit horizontaler Achse nutzt diese Turbine ihre vertikale Bauweise, um auch verwirbelten Wind zwischen Hochhäusern optimal einzufangen. Dadurch eignet sie sich besonders für Dächer in Städten, wo der Wind selten aus einer festen Richtung weht. Schon ein einzelnes Modul könnte künftig einen Teil des Strombedarfs eines Wohnhauses decken."
 }

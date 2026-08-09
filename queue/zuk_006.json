@@ -7,5 +7,6 @@
     "KI wertet Verkehrsfluss in Echtzeit aus mehreren Kreuzungen gleichzeitig aus.",
     "Ampelschaltung passt sich dynamisch an, bevor sich ein Stau bildet.",
     "Pilotstaedte melden spuerbar kuerzere Wartezeiten im Testbetrieb."
-  ]
+  ],
+  "description": "Statt starr nach festen Zeitplänen zu schalten, wertet ein KI-System die Verkehrsdaten mehrerer Kreuzungen gleichzeitig in Echtzeit aus. Erkennt es, dass sich irgendwo ein Stau anbahnt, passt es die Ampelschaltung schon vorbeugend an, statt erst zu reagieren, wenn der Verkehr längst steht. In ersten Pilotstädten meldeten Verkehrsplaner dadurch spürbar kürzere Wartezeiten."
 }

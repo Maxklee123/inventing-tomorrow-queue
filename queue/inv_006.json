@@ -7,5 +7,6 @@
     "KI-Bilderkennung identifiziert Materialtyp in Millisekunden pro Objekt.",
     "Steigert die Recyclingquote deutlich gegenüber manueller Sortierung.",
     "Erste Anlagen laufen bereits in europäischen Recyclingzentren im Testbetrieb."
-  ]
+  ],
+  "description": "Eine Kamera scannt jedes Objekt auf dem Förderband, während eine KI in Millisekunden erkennt, ob es sich um Plastik, Metall oder Papier handelt. Ein Greifarm sortiert das Material anschließend präziser und schneller, als es von Hand möglich wäre. In ersten europäischen Testanlagen konnte dadurch die Recyclingquote spürbar gesteigert werden."
 }
