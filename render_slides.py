@@ -10,7 +10,6 @@ import json
 import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
-
 CANVAS_SIZE = (1080, 1350)
 
 COLORS = {
@@ -22,7 +21,6 @@ COLORS = {
     "pill_bg": (0, 200, 255),
     "pill_text": (5, 8, 14),
 }
-
 FONT_DIR = Path("/usr/share/fonts/truetype/google-fonts")
 FONTS = {
     "black": FONT_DIR / "Poppins-Bold.ttf",
@@ -166,13 +164,33 @@ def render_fact_slide(post, fact_text, index, slide_count):
     return canvas
 
 
+def render_description_slide(post, index, slide_count):
+    """Neue dritte Seite vor dem Standard-Abschluss: ausführlichere Erklärung
+    der Erfindung/Idee (Feld "description" im Post-JSON)."""
+    canvas = prepare_background(post.get("image"))
+    canvas = add_gradient_overlay(canvas, "both")
+    draw = ImageDraw.Draw(canvas)
+    draw_progress_dots(draw, index, slide_count)
+    draw_pill(draw, "DIE IDEE IM DETAIL", MARGIN, 130, load_font("bold", 28))
+    desc_font = load_font("medium", 38)
+    max_w = CANVAS_SIZE[0] - 2 * MARGIN
+    lines = wrap_text(post["description"], desc_font, max_w, draw)
+    line_height = 52
+    y = 260
+    for line in lines:
+        draw.text((MARGIN, y), line, font=desc_font, fill=COLORS["text_primary"])
+        y += line_height
+    draw_handle_watermark(draw, load_font("regular", 28))
+    return canvas
+
+
 def render_cta_slide(post, slide_count):
     canvas = Image.new("RGB", CANVAS_SIZE, COLORS["overlay_dark"])
     draw = ImageDraw.Draw(canvas)
     draw_progress_dots(draw, slide_count - 1, slide_count)
     title_font = load_font("black", 64)
     lines = wrap_text("Mehr Erfindungen & Zukunftskonzepte?", title_font,
-                       CANVAS_SIZE[0] - 2 * MARGIN, draw)
+                        CANVAS_SIZE[0] - 2 * MARGIN, draw)
     y = 480
     for line in lines:
         draw.text((MARGIN, y), line, font=title_font, fill=COLORS["text_primary"])
@@ -192,7 +210,8 @@ def render_cta_slide(post, slide_count):
 
 def render_post_return_paths(post, output_root):
     facts = post["facts"]
-    slide_count = 1 + len(facts) + 1
+    has_desc = bool(post.get("description"))
+    slide_count = 1 + len(facts) + (1 if has_desc else 0) + 1
     out_dir = output_root / post["id"]
     out_dir.mkdir(parents=True, exist_ok=True)
     paths = []
@@ -205,6 +224,14 @@ def render_post_return_paths(post, output_root):
         p = out_dir / f"{i+1:02d}_fact.png"
         slide.save(p, quality=95)
         paths.append(str(p))
+    next_num = len(facts) + 2
+    if has_desc:
+        desc_dot_index = len(facts) + 1  # 0-based: hook=0, facts=1..N, description=N+1
+        slide = render_description_slide(post, desc_dot_index, slide_count)
+        p = out_dir / f"{next_num:02d}_description.png"
+        slide.save(p, quality=95)
+        paths.append(str(p))
+        next_num += 1
     cta_slide = render_cta_slide(post, slide_count)
     p = out_dir / f"{slide_count:02d}_cta.png"
     cta_slide.save(p, quality=95)
