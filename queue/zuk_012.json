@@ -7,5 +7,6 @@
     "Ein virtuelles Abbild simuliert Verkehr, Energie und Klima",
     "Hilft, Krisen wie Überflutungen vorab zu testen",
     "Städte wie Singapur nutzen bereits erste digitale Zwillinge"
-  ]
+  ],
+  "description": "Ein virtuelles Abbild der Stadt simuliert in Echtzeit Verkehrsströme, Energieverbrauch und Wetterereignisse, gespeist mit Daten aus tausenden Sensoren. Stadtplaner können darin zum Beispiel durchspielen, wie sich ein Starkregen auf die Kanalisation auswirken würde, bevor es tatsächlich passiert. Städte wie Singapur nutzen solche digitalen Zwillinge bereits aktiv für ihre Infrastrukturplanung."
 }
