@@ -7,5 +7,6 @@
     "KI trennt Stimmen von Hintergrundlärm in Echtzeit",
     "Passt sich automatisch an laute Umgebungen an",
     "Erste Modelle sind bereits kommerziell erhältlich"
-  ]
+  ],
+  "description": "Eine integrierte KI analysiert eingehende Geräusche in Echtzeit und trennt gezielt Sprache von störendem Hintergrundlärm, ähnlich wie es das menschliche Gehirn instinktiv tut. Das Hörgerät passt sich dabei automatisch an, egal ob man sich in einem ruhigen Raum oder auf einer lauten Straße befindet. Erste Modelle mit dieser Technologie sind bereits kommerziell erhältlich."
 }

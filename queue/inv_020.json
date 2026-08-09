@@ -7,5 +7,6 @@
     "Sensoren messen Feuchtigkeit, Temperatur und pH-Wert der Wunde",
     "Warnt frühzeitig vor Entzündungen per App",
     "Erste klinische Tests laufen bereits in mehreren Kliniken"
-  ]
+  ],
+  "description": "In das dünne Pflaster sind Mikrosensoren eingearbeitet, die Feuchtigkeit, Temperatur und pH-Wert direkt an der Wunde messen. Verändern sich diese Werte in Richtung einer Entzündung, schickt eine App frühzeitig eine Warnung, noch bevor die Wunde sichtbar schlechter aussieht. Mehrere Kliniken testen das System aktuell an Patienten mit chronischen Wunden."
 }

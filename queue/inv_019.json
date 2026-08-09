@@ -7,5 +7,6 @@
     "Fängt Umgebungs-Funkwellen aus WLAN und Mobilfunk ein",
     "Lädt das Handy langsam, aber völlig kabellos nach",
     "Erste Prototypen wurden bereits erfolgreich getestet"
-  ]
+  ],
+  "description": "Die Handyhülle enthält eine winzige Antenne, die schwache Funkwellen aus WLAN-Netzen und Mobilfunkmasten in der Umgebung einfängt und in elektrische Energie umwandelt. Die Ladeleistung ist gering, reicht aber aus, um den Akku im Alltag langsam mit aufzuladen, ganz ohne Kabel oder Steckdose. Erste funktionierende Prototypen wurden kürzlich erfolgreich vorgestellt."
 }
