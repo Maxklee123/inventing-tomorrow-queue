@@ -7,5 +7,6 @@
     "Roboterarme sortieren Materialien vollautomatisch per Bilderkennung",
     "Passt in einen einzigen Stadtblock statt großer Außenanlagen",
     "Erste Pilotanlagen laufen bereits in mehreren Großstädten"
-  ]
+  ],
+  "description": "Roboterarme mit Bilderkennung sortieren ankommenden Müll vollautomatisch nach Materialtyp, deutlich schneller und präziser als es von Hand möglich wäre. Da die Anlage vertikal gebaut ist, passt sie in einen einzigen Stadtblock statt eine große Außenfläche zu beanspruchen. Erste Pilotanlagen dieser Art laufen bereits in mehreren Großstädten im Testbetrieb."
 }

@@ -7,5 +7,6 @@
     "Kleine Roboter pflanzen und markieren Setzlinge automatisch",
     "Schaffen ein Vielfaches der Pflanzleistung von Handarbeit",
     "Erste Testeinsätze laufen bereits nach Waldbränden"
-  ]
+  ],
+  "description": "Kleine, autonome Roboter fahren durch abgebrannte oder gerodete Flächen, bohren Löcher und setzen Setzlinge automatisch an optimalen Stellen ein. Dadurch lässt sich ein Vielfaches der Fläche aufforsten, die von Hand in derselben Zeit möglich wäre. Erste Testeinsätze finden bereits gezielt in Regionen statt, die kurz zuvor von Waldbränden betroffen waren."
 }
