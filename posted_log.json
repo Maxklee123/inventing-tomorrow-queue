@@ -142,5 +142,12 @@
     "instagram_media_id": "18102270914163904",
     "permalink": "https://www.instagram.com/p/DcGNbfiG-Nf/",
     "run_slot": 1
+  },
+  {
+    "post_id": "inv_010",
+    "timestamp": "2026-08-16T18:41:20+02:00",
+    "status": "api_error",
+    "run_slot": 2,
+    "error": "Instagram carousel publish failed: Container 18089267873196118 processing failed with ERROR status after INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (HTTP 400). Composio message: 'Container 18089267873196118 processing failed with ERROR status. Error details: ERROR. This may indicate issues with the media file (format, size, aspect ratio, etc.).' All 6 child containers (creation_ids 18089267474196118, 18089267456196118, 18089267471196118, 18089267477196118, 18089267558196118, 18089267561196118) had individually reached status FINISHED before the parent carousel container was created. Rendered slides were committed to GitHub at rendered/inv_010/*.png (PNG format). Likely root cause: Instagram Graph API requires JPEG for image_url containers; render_slides.py currently outputs PNG, which may not be reliably accepted despite child containers reporting FINISHED. An earlier carousel-container creation attempt with share_to_feed=true also failed with 'Invalid parameter in carousel request' (HTTP 400) and was retried once without share_to_feed, which allowed container creation but not successful processing/publish. No content was published to Instagram."
   }
 ]
