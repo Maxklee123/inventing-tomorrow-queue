@@ -208,6 +208,15 @@ def render_cta_slide(post, slide_count):
     return canvas
 
 
+def save_slide_jpeg(image, path):
+    # Instagram's Graph API requires JPEG for image_url containers; PNG output was
+    # silently accepted by PIL (the quality= kwarg is ignored for .png) but failed
+    # Instagram-side processing (container ends in ERROR instead of FINISHED).
+    if image.mode != "RGB":
+        image = image.convert("RGB")
+    image.save(path, format="JPEG", quality=92, optimize=True)
+
+
 def render_post_return_paths(post, output_root):
     facts = post["facts"]
     has_desc = bool(post.get("description"))
@@ -216,25 +225,25 @@ def render_post_return_paths(post, output_root):
     out_dir.mkdir(parents=True, exist_ok=True)
     paths = []
     hook_slide = render_hook_slide(post, slide_count)
-    p = out_dir / "01_hook.png"
-    hook_slide.save(p, quality=95)
+    p = out_dir / "01_hook.jpg"
+    save_slide_jpeg(hook_slide, p)
     paths.append(str(p))
     for i, fact in enumerate(facts, start=1):
         slide = render_fact_slide(post, fact, i, slide_count)
-        p = out_dir / f"{i+1:02d}_fact.png"
-        slide.save(p, quality=95)
+        p = out_dir / f"{i+1:02d}_fact.jpg"
+        save_slide_jpeg(slide, p)
         paths.append(str(p))
     next_num = len(facts) + 2
     if has_desc:
         desc_dot_index = len(facts) + 1  # 0-based: hook=0, facts=1..N, description=N+1
         slide = render_description_slide(post, desc_dot_index, slide_count)
-        p = out_dir / f"{next_num:02d}_description.png"
-        slide.save(p, quality=95)
+        p = out_dir / f"{next_num:02d}_description.jpg"
+        save_slide_jpeg(slide, p)
         paths.append(str(p))
         next_num += 1
     cta_slide = render_cta_slide(post, slide_count)
-    p = out_dir / f"{slide_count:02d}_cta.png"
-    cta_slide.save(p, quality=95)
+    p = out_dir / f"{slide_count:02d}_cta.jpg"
+    save_slide_jpeg(cta_slide, p)
     paths.append(str(p))
     return paths
 
