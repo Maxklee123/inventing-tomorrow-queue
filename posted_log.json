@@ -188,5 +188,13 @@
     "status": "api_error",
     "run_slot": 2,
     "error": "GitHub-Commit der gerenderten Slides fehlgeschlagen: Rendering war erfolgreich (6 JPEG-Slides fuer inv_012 lokal erzeugt mit render_slides.py + Poppins-Fonts), aber der Commit nach /rendered/inv_012/ konnte nicht sicher durchgefuehrt werden. Die Composio Remote-Sandbox (Workbench/run_composio_tool), die einen serverseitigen, verlustfreien Datei-Upload ermoeglichen wuerde, meldete bei jedem Versuch HTTP 401 'The project API key that created this session has been revoked or has expired' (code 902, Auth_Unauthorized). Der direkte Fallback ueber COMPOSIO_MULTI_EXECUTE_TOOL / GITHUB_COMMIT_MULTIPLE_FILES wuerde erfordern, ca. 1.2 MB Bilddaten (~1.6 MB als base64) durch die Modell-Ausgabe zu leiten; dieses Risiko einer stillen Bild-Korruption auf einem live publizierenden Account wurde als zu hoch eingeschaetzt (ein Testversuch mit einem kleineren base64-Textblock zeigte bereits eine Kopierabweichung). Kein Instagram-Post wurde versucht, keine Google-Sheet-Aktualisierung vorgenommen. Empfehlung: Composio-Projekt-API-Key fuer diese Umgebung erneuern/reaktivieren, dann Lauf erneut anstossen."
+  },
+  {
+    "post_id": "inv_012",
+    "timestamp": "2026-08-19T12:08:08+02:00",
+    "status": "posted",
+    "instagram_media_id": "18007225259766539",
+    "permalink": "https://www.instagram.com/p/DcN7-ShoIo1/",
+    "run_slot": 1
   }
 ]
