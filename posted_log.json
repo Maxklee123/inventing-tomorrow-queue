@@ -227,5 +227,12 @@
     "status": "api_error",
     "run_slot": 1,
     "error": "Instagram-Publishing fehlgeschlagen: Alle 6 Media-Container-Erstellungsversuche (INSTAGRAM_POST_IG_USER_MEDIA, is_carousel_item=true) fuer die Slides rendered/inv_014/01_hook.jpg bis 06_cta.jpg schlugen mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' Der Instagram-Access-Token fuer den Composio-Connector (Account-Alias 'inventing.tomorrow', ig_user_id 28928338463419629) ist abgelaufen/invalidiert. Rendering (6 JPEG-Slides mit render_slides.py + Poppins-Fonts) und GitHub-Commit der Slides waren erfolgreich (Commit 6d80711b5e59c0187d8c139b056803a8ecaa0218, Pfad rendered/inv_014/*.jpg, alle 6 raw-URLs mit HTTP 200 verifiziert). Kein Instagram-Post wurde erstellt, keine Google-Sheet-Aktualisierung vorgenommen. Empfehlung: Instagram/Facebook-Verbindung fuer @inventing.tomorrow in Composio neu autorisieren (Reconnect), dann Lauf erneut anstossen."
+  },
+  {
+    "post_id": "inv_014",
+    "timestamp": "2026-08-21T19:42:01+02:00",
+    "status": "api_error",
+    "run_slot": 2,
+    "error": "Instagram-Publishing fehlgeschlagen (2. Fehlschlag in Folge, identisch mit run_slot 1 von heute 12:15 Uhr): Alle 6 Media-Container-Erstellungsversuche (INSTAGRAM_POST_IG_USER_MEDIA, is_carousel_item=true, account 'inventing.tomorrow', ig_user_id 28928338463419629) fuer die bereits vorhandenen Slides rendered/inv_014/01_hook.jpg bis 06_cta.jpg schlugen erneut mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' Rendering und GitHub-Commit der Slides waren bereits im vorherigen Lauf (12:15 Uhr) erfolgreich und wurden unveraendert wiederverwendet, kein erneutes Rendering noetig. Kein Instagram-Post wurde erstellt, keine Google-Sheet-Aktualisierung vorgenommen. Der Instagram/Facebook-Access-Token fuer @inventing.tomorrow muss in Composio neu autorisiert werden (Reconnect), bevor weitere Laeufe Erfolg haben koennen."
   }
 ]
