@@ -220,5 +220,12 @@
     "instagram_media_id": "17879463462624659",
     "permalink": "https://www.instagram.com/p/DcRPyhpIOcr/",
     "run_slot": 2
+  },
+  {
+    "post_id": "inv_014",
+    "timestamp": "2026-08-21T12:15:52+02:00",
+    "status": "api_error",
+    "run_slot": 1,
+    "error": "Instagram-Publishing fehlgeschlagen: Alle 6 Media-Container-Erstellungsversuche (INSTAGRAM_POST_IG_USER_MEDIA, is_carousel_item=true) fuer die Slides rendered/inv_014/01_hook.jpg bis 06_cta.jpg schlugen mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' Der Instagram-Access-Token fuer den Composio-Connector (Account-Alias 'inventing.tomorrow', ig_user_id 28928338463419629) ist abgelaufen/invalidiert. Rendering (6 JPEG-Slides mit render_slides.py + Poppins-Fonts) und GitHub-Commit der Slides waren erfolgreich (Commit 6d80711b5e59c0187d8c139b056803a8ecaa0218, Pfad rendered/inv_014/*.jpg, alle 6 raw-URLs mit HTTP 200 verifiziert). Kein Instagram-Post wurde erstellt, keine Google-Sheet-Aktualisierung vorgenommen. Empfehlung: Instagram/Facebook-Verbindung fuer @inventing.tomorrow in Composio neu autorisieren (Reconnect), dann Lauf erneut anstossen."
   }
 ]
