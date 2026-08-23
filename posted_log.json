@@ -266,5 +266,14 @@
     "permalink": null,
     "run_slot": null,
     "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
+  },
+  {
+    "post_id": "inv_015",
+    "timestamp": "2026-08-23T13:00:00+02:00",
+    "status": "posted",
+    "instagram_media_id": null,
+    "permalink": "https://www.instagram.com/reel/DcYfgB8Meeu/?igsi=MThmeXRpN2cwam8zag==",
+    "run_slot": null,
+    "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
   }
 ]
