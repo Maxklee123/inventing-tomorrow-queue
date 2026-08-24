@@ -250,46 +250,18 @@
     "error": "Instagram-Publishing fehlgeschlagen (4. Fehlschlag in Folge seit 21.08.2026, unveraendert): Preflight-Check INSTAGRAM_GET_USER_INFO fuer ig_user_id 28928338463419629 (Account-Alias 'inventing.tomorrow' in Composio) schlug mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' (OAuthException, code 190, fbtrace_id AIxN0n2oWv5XlSCVDrL0l5V). Identisch mit den Fehlern vom 21.08. (12:15 und 19:42 Uhr) und 22.08. (12:24 Uhr). Wie beim letzten Lauf wurde die Identitaetspruefung bewusst VOR jeglichem Rendering/Commit durchgefuehrt, um keine Arbeit zu verschwenden; es wurde daher kein Post ausgewaehlt/gerendert, kein GitHub-Commit vorgenommen, kein Instagram-Post versucht, keine Google-Sheet-Aktualisierung vorgenommen. Der Instagram/Facebook-Access-Token fuer @inventing.tomorrow ist seit mindestens 3 Tagen ununterbrochen ungueltig. DRINGENDE Empfehlung (wiederholt): Instagram/Facebook-Verbindung fuer @inventing.tomorrow in Composio vollstaendig neu autorisieren (Reconnect-Flow) und pruefen/bestaetigen, dass der Account weiterhin als Business/Creator-Konto gefuehrt wird (beim Lauf vom 22.08. wurde faelschlich 'PRIVATE' als account_type gemeldet)."
   },
   {
-    "post_id": "inv_014",
-    "timestamp": "2026-08-23T12:30:00+02:00",
-    "status": "posted",
-    "instagram_media_id": null,
-    "permalink": null,
-    "run_slot": null,
-    "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
-  },
-  {
-    "post_id": "zuk_014",
-    "timestamp": "2026-08-23T12:30:00+02:00",
-    "status": "posted",
-    "instagram_media_id": null,
-    "permalink": null,
-    "run_slot": null,
-    "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
-  },
-  {
-    "post_id": "inv_015",
-    "timestamp": "2026-08-23T13:00:00+02:00",
-    "status": "posted",
-    "instagram_media_id": null,
-    "permalink": "https://www.instagram.com/reel/DcYfgB8Meeu/?igsi=MThmeXRpN2cwam8zag==",
-    "run_slot": null,
-    "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
-  },
-  {
-    "post_id": "zuk_015",
-    "timestamp": "2026-08-23T14:00:00+02:00",
-    "status": "posted",
-    "instagram_media_id": null,
-    "permalink": "https://www.instagram.com/reel/DcY1jvUM6Bb/?igsi=bGMzajQwM214c3g5",
-    "run_slot": null,
-    "note": "Manuell vom Nutzer selbst gepostet (Automation blockiert durch ungueltigen Instagram-Token seit 21.08.2026)."
-  },
-  {
     "post_id": "inv_016",
     "timestamp": "2026-08-23T18:44:00+02:00",
     "status": "api_error",
     "run_slot": 2,
     "error": "Instagram-Publishing fehlgeschlagen (5. Fehlschlag in Folge seit 21.08.2026, unveraendert): Preflight-Check INSTAGRAM_GET_USER_INFO fuer ig_user_id 28928338463419629 (Composio-Account-Alias 'inventing.tomorrow', Connection-ID instagram_scot-tali) schlug mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' (OAuthException, code 190, fbtrace_id AKoYOX5PmxyJT8SwY-o_Trt). Identisch mit den Fehlern vom 21.08. (2x), 22.08. und 23.08. 12:04 Uhr. Die Identitaetspruefung wurde bewusst VOR dem Instagram-Publishing-Versuch durchgefuehrt; es wurde daher kein Media-Container erstellt und kein Instagram-Post versucht. Rendering und GitHub-Commit fuer inv_016 wurden diesmal VOR dem Preflight-Check erledigt und waren erfolgreich (6 JPEG-Slides mit render_slides.py + Poppins-Fonts, committet nach rendered/inv_016/01_hook.jpg bis 06_cta.jpg im main-Branch); diese Slides koennen beim naechsten erfolgreichen Lauf direkt wiederverwendet werden, kein erneutes Rendering noetig. Zusaetzlicher Befund (Verschlechterung gegenueber 22.08.): Composio COMPOSIO_SEARCH_TOOLS listet fuer den Instagram-Toolkit inzwischen FUENF verbundene Accounts (ki_innovation_biz [default], top10_money, inventing.tomorrow, hoerschnellzu, medianmensch) mit account_selection='required'; ALLE fuenf, einschliesslich 'inventing.tomorrow', werden mit account_type 'PRIVATE' statt Business/Creator gemeldet. Der Eintrag fuer 'inventing.tomorrow' (Connection-ID instagram_scot-tali) hat zudem KEIN user_info (kein username/id), anders als die vier anderen Accounts - das deutet auf eine nie vollstaendig abgeschlossene oder inzwischen zusaetzlich beschaedigte Verbindung hin, nicht nur auf einen abgelaufenen Token. Kein Instagram-Post wurde erstellt, keine Google-Sheet-Aktualisierung vorgenommen. DRINGENDE Empfehlung (wiederholt, jetzt verschaerft): @inventing.tomorrow in Composio vollstaendig trennen und neu verbinden (nicht nur Reconnect), dabei sicherstellen, dass (1) das Konto tatsaechlich als Business/Creator gefuehrt wird und (2) beim Tool-Aufruf immer explizit account='inventing.tomorrow' angegeben wird, da der Composio-Default-Account ein anderer, fremder Account (ki_innovation_biz) ist - Verwechslungsgefahr bei kuenftigen Laeufen."
+  },
+  {
+    "post_id": "inv_016",
+    "timestamp": "2026-08-24T08:15:00+02:00",
+    "status": "posted",
+    "instagram_media_id": "18016934363916486",
+    "permalink": "https://www.instagram.com/p/DcaZDmkIFJ0/",
+    "run_slot": null
   }
 ]
