@@ -104,6 +104,15 @@
     "run_slot": 2
   },
   {
+    "post_id": "unlogged_2026-08-14_DcA0UjystoS",
+    "timestamp": "2026-08-14T09:51:28+02:00",
+    "status": "posted",
+    "instagram_media_id": "17922770232407824",
+    "permalink": "https://www.instagram.com/reel/DcA0UjystoS/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. This is a recurring weekly 'Das hast du diese Woche verpasst' recap reel, a content format outside the inv_/zuk_ queue system (recurs roughly every 4-5 days across the whole history), so no queue post_id applies. Added for data-integrity completeness only."
+  },
+  {
     "post_id": "zuk_007",
     "timestamp": "2026-08-14T12:11:58+02:00",
     "status": "posted",
@@ -120,6 +129,15 @@
     "run_slot": 2
   },
   {
+    "post_id": "unlogged_2026-08-15_DcDANN5syvh",
+    "timestamp": "2026-08-15T06:13:42+02:00",
+    "status": "posted",
+    "instagram_media_id": "18138143971588669",
+    "permalink": "https://www.instagram.com/reel/DcDANN5syvh/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system. Added for data-integrity completeness only."
+  },
+  {
     "post_id": "zuk_008",
     "timestamp": "2026-08-15T12:11:20+02:00",
     "status": "posted",
@@ -134,6 +152,15 @@
     "instagram_media_id": "18611909980020888",
     "permalink": "https://www.instagram.com/p/DcEWLSBINro/",
     "run_slot": 2
+  },
+  {
+    "post_id": "unlogged_2026-08-16_DcGAn1YMZ8w",
+    "timestamp": "2026-08-16T10:14:55+02:00",
+    "status": "posted",
+    "instagram_media_id": "18102480761232427",
+    "permalink": "https://www.instagram.com/reel/DcGAn1YMZ8w/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system. Added for data-integrity completeness only."
   },
   {
     "post_id": "zuk_009",
@@ -159,6 +186,15 @@
     "run_slot": 2
   },
   {
+    "post_id": "unlogged_2026-08-17_DcIcda9sZdg",
+    "timestamp": "2026-08-17T08:56:37+02:00",
+    "status": "posted",
+    "instagram_media_id": "18034060493837088",
+    "permalink": "https://www.instagram.com/reel/DcIcda9sZdg/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system. Added for data-integrity completeness only."
+  },
+  {
     "post_id": "zuk_010",
     "timestamp": "2026-08-17T12:08:37+02:00",
     "status": "posted",
@@ -173,6 +209,15 @@
     "instagram_media_id": "18129497482659406",
     "permalink": "https://www.instagram.com/p/DcJfLgYIM80/",
     "run_slot": 2
+  },
+  {
+    "post_id": "unlogged_2026-08-18_DcK_xlCMjAH",
+    "timestamp": "2026-08-18T08:43:52+02:00",
+    "status": "posted",
+    "instagram_media_id": "17964167442162892",
+    "permalink": "https://www.instagram.com/reel/DcK_xlCMjAH/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system. Added for data-integrity completeness only."
   },
   {
     "post_id": "zuk_011",
@@ -196,6 +241,15 @@
     "instagram_media_id": "18007225259766539",
     "permalink": "https://www.instagram.com/p/DcN7-ShoIo1/",
     "run_slot": 1
+  },
+  {
+    "post_id": "unlogged_2026-08-19_DcOBFi4Mpnp",
+    "timestamp": "2026-08-19T12:52:46+02:00",
+    "status": "posted",
+    "instagram_media_id": "18159062188493207",
+    "permalink": "https://www.instagram.com/reel/DcOBFi4Mpnp/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system. Added for data-integrity completeness only."
   },
   {
     "post_id": "zuk_012",
@@ -222,6 +276,15 @@
     "run_slot": 2
   },
   {
+    "post_id": "unlogged_2026-08-21_DcSs14tMX26",
+    "timestamp": "2026-08-21T08:32:10+02:00",
+    "status": "posted",
+    "instagram_media_id": "18192435289387062",
+    "permalink": "https://www.instagram.com/reel/DcSs14tMX26/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: could not be matched to any queue/*.json post_id. Recurring weekly 'Das hast du diese Woche verpasst' recap reel, outside the inv_/zuk_ queue system; posted during the Aug21-23 token-outage window. Added for data-integrity completeness only."
+  },
+  {
     "post_id": "inv_014",
     "timestamp": "2026-08-21T12:15:52+02:00",
     "status": "api_error",
@@ -237,6 +300,24 @@
   },
   {
     "post_id": "inv_014",
+    "timestamp": "2026-08-22T06:54:18+02:00",
+    "status": "posted",
+    "instagram_media_id": "17907645099467856",
+    "permalink": "https://www.instagram.com/reel/DcVGbO_sIEM/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: posted manually by user during the Aug21-23 Instagram token-outage window (all automated attempts that day failed with api_error/401). Matched to queue/inv_014.json via exact hook-text match in caption."
+  },
+  {
+    "post_id": "zuk_014",
+    "timestamp": "2026-08-22T06:59:44+02:00",
+    "status": "posted",
+    "instagram_media_id": "18083530694485589",
+    "permalink": "https://www.instagram.com/reel/DcVHCujs_-n/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: posted manually by user during the Aug21-23 Instagram token-outage window; no prior log entry existed for zuk_014 at all. Matched to queue/zuk_014.json via exact hook-text match in caption."
+  },
+  {
+    "post_id": "inv_014",
     "timestamp": "2026-08-22T12:24:50+02:00",
     "status": "api_error",
     "run_slot": 1,
@@ -248,6 +329,24 @@
     "status": "api_error",
     "run_slot": 1,
     "error": "Instagram-Publishing fehlgeschlagen (4. Fehlschlag in Folge seit 21.08.2026, unveraendert): Preflight-Check INSTAGRAM_GET_USER_INFO fuer ig_user_id 28928338463419629 (Account-Alias 'inventing.tomorrow' in Composio) schlug mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' (OAuthException, code 190, fbtrace_id AIxN0n2oWv5XlSCVDrL0l5V). Identisch mit den Fehlern vom 21.08. (12:15 und 19:42 Uhr) und 22.08. (12:24 Uhr). Wie beim letzten Lauf wurde die Identitaetspruefung bewusst VOR jeglichem Rendering/Commit durchgefuehrt, um keine Arbeit zu verschwenden; es wurde daher kein Post ausgewaehlt/gerendert, kein GitHub-Commit vorgenommen, kein Instagram-Post versucht, keine Google-Sheet-Aktualisierung vorgenommen. Der Instagram/Facebook-Access-Token fuer @inventing.tomorrow ist seit mindestens 3 Tagen ununterbrochen ungueltig. DRINGENDE Empfehlung (wiederholt): Instagram/Facebook-Verbindung fuer @inventing.tomorrow in Composio vollstaendig neu autorisieren (Reconnect-Flow) und pruefen/bestaetigen, dass der Account weiterhin als Business/Creator-Konto gefuehrt wird (beim Lauf vom 22.08. wurde faelschlich 'PRIVATE' als account_type gemeldet)."
+  },
+  {
+    "post_id": "inv_015",
+    "timestamp": "2026-08-23T14:32:08+02:00",
+    "status": "posted",
+    "instagram_media_id": "18122153515643054",
+    "permalink": "https://www.instagram.com/reel/DcYfgB8Meeu/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: posted manually by user during the Aug21-23 Instagram token-outage window; no prior log entry existed for inv_015 at all. Matched to queue/inv_015.json via exact hook-text match in caption."
+  },
+  {
+    "post_id": "zuk_015",
+    "timestamp": "2026-08-23T17:43:47+02:00",
+    "status": "posted",
+    "instagram_media_id": "18121144292489698",
+    "permalink": "https://www.instagram.com/reel/DcY1jvUM6Bb/",
+    "run_slot": null,
+    "note": "Reconciled 2026-08-24: posted manually by user during the Aug21-23 Instagram token-outage window; no prior log entry existed for zuk_015 at all. Matched to queue/zuk_015.json via exact hook-text match in caption."
   },
   {
     "post_id": "inv_016",
