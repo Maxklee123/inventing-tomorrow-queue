@@ -400,5 +400,13 @@
     "status": "api_error",
     "run_slot": 1,
     "error": "Failed to create child container for media URL 'https://raw.githubusercontent.com/Maxklee123/inventing-tomorrow-queue/main/rendered/inv_018/01_hook.jpg' (status 401). Error code: 190, subcode: 0. Message: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. [x-request-id: 98fee15f-fb99-4516-acd0-34c26bee93e2]"
+  },
+  {
+    "post_id": "inv_018",
+    "timestamp": "2026-08-26T19:30:51+02:00",
+    "status": "posted",
+    "instagram_media_id": "18135091126616474",
+    "permalink": "https://www.instagram.com/p/DcgwNm6IKNT/",
+    "run_slot": 2
   }
 ]
