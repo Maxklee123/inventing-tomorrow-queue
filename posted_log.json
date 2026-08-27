@@ -415,5 +415,13 @@
     "status": "api_error",
     "error": "Instagram API error (status 401): Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. (occurred while creating carousel item media containers for zuk_018 via INSTAGRAM_POST_IG_USER_MEDIA, account 'inventing.tomorrow')",
     "run_slot": 1
+  },
+  {
+    "post_id": "zuk_018",
+    "timestamp": "2026-08-27T19:05:45+02:00",
+    "status": "posted",
+    "instagram_media_id": "18111364834817300",
+    "permalink": "https://www.instagram.com/p/DcjSH3zm72F/",
+    "run_slot": 2
   }
 ]
