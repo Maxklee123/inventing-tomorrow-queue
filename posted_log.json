@@ -455,5 +455,12 @@
     "instagram_media_id": "18111800015036080",
     "permalink": "https://www.instagram.com/p/DcqC2fjG3ox/",
     "run_slot": 2
+  },
+  {
+    "post_id": "inv_021",
+    "timestamp": "2026-08-30T13:16:55+02:00",
+    "status": "api_error",
+    "run_slot": 1,
+    "error": "Instagram-Publishing nicht versucht (Blocker vor Container-Erstellung): Preflight-Identitaetspruefung INSTAGRAM_GET_USER_INFO fuer ig_user_id 28928338463419629 (Composio-Account-Alias 'inventing.tomorrow') schlug mit HTTP 401 fehl: 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.' (OAuthException, code 190, error_subcode 0). Fehler wurde unabhaengig ueber zwei Pfade bestaetigt: (1) COMPOSIO_REMOTE_WORKBENCH run_composio_tool(account='inventing.tomorrow') -> fbtrace_id AV-e1baQ7JQM1D8xIi_WR0g, (2) COMPOSIO_MULTI_EXECUTE_TOOL mit account='inventing.tomorrow' -> fbtrace_id A5Rm7vDsPSBFC_4EdCYQ3k_. Kein Media-Container wurde erstellt, kein Instagram-Post versucht, keine Google-Sheet-Aktualisierung vorgenommen. Auswahl/Rendering/Commit waren bereits erfolgreich abgeschlossen: post_id inv_021 (naechster faelliger inv_-Post nach zuk_020), 6 JPEG-Slides (1080x1350) mit render_slides.py + Poppins-Fonts gerendert und nach rendered/inv_021/01_hook.jpg .. 06_cta.jpg im main-Branch committet, alle 6 raw.githubusercontent.com-URLs per HTTP 200 verifiziert - diese Slides koennen beim naechsten erfolgreichen Lauf direkt wiederverwendet werden, kein erneutes Rendering noetig. Dies ist derselbe wiederkehrende Fehlertyp wie bei inv_014/inv_016/inv_018/zuk_018 (siehe fruehere Log-Eintraege): der Instagram/Facebook-Access-Token fuer @inventing.tomorrow ist ungueltig geworden. DRINGENDE Empfehlung: Instagram/Facebook-Verbindung fuer @inventing.tomorrow in Composio neu autorisieren (vollstaendiger Reconnect-Flow), danach Lauf erneut anstossen."
   }
 ]
